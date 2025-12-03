@@ -122,11 +122,11 @@
   <div id="loveText">凑鸡毛 喜欢你！</div>
 
   <!-- 左下两只花边狗 -->
-  <img id="dog-left-1" class="fixed-dog" src="dog_left1.png" alt="dog-left1" />
-  <img id="dog-left-2" class="fixed-dog" src="dog_left2.png" alt="dog-left2" />
+  <img id="dog-left-1" class="fixed-dog" src="love_page/dog_left1.png" alt="dog-left1" />
+  <img id="dog-left-2" class="fixed-dog" src="love_page/dog_left2.png" alt="dog-left2" />
 
   <!-- 右下角两只趴着的狗 -->
-  <img id="dog-right" class="fixed-dog" src="dog_right.png" alt="dog-right" />
+  <img id="dog-right" class="fixed-dog" src="love_page/dog_right.png" alt="dog-right" />
 </div>
 
 <script>
@@ -147,7 +147,7 @@
   function createDog() {
     const img = document.createElement("img");
     img.classList.add("dog-fall");
-    img.src = "dog_fall.png"; // 飘落的小白狗（抱心心）
+    img.src = "love_page/dog_fall.png"; // 飘落的小白狗
 
     img.style.left = Math.random() * 100 + "vw";
     const size = 60 + Math.random() * 30;
